@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/alarm_style.css">
+</head>
+
+<body>
+    <div id="alarm_confirm">Alarm Set</div>
+    <div class="back"></div>
+    <div class="alarm_card">
+        <h2>Set Alarm</h2>
+        <div id="inputs">
+            <label for="alarm_hr">
+                <input type="numeric" name="hr" id="alarm_hr">
+                <p class="tag">Hour</p>
+            </label>
+            <label for="alarm_m">
+                <input type="numeric" name="m" id="alarm_m">
+                <p class="tag">minutes</p>
+            </label>
+            <label for="alarm_s">
+                <input type="numeric" name="s" id="alarm_s">
+                <p class="tag">seconds</p>
+            </label>
+        </div>
+
+        <label for="set">
+            <button id="set">Set</button>
+        </label>
+    </div>
+    <script type="module" src="/scripts/alarm.js"></script>
+</body>
+
+</html>
