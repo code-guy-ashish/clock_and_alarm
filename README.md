@@ -24,3 +24,4 @@ CSS file with styles for the clock interface.
 JavaScript file containing the logic for fetching and updating the current time.
 A fully functional interactive clock that displays the real-time and responds to user interactions.
 Through this project, I will gain valuable experience in combining HTML, CSS, and JavaScript to create an engaging and functional web application. The finished clock will serve as an impressive addition to my portfolio and showcase my proficiency in front-end web development.
+<img width="960" alt="image" src="https://github.com/code-guy-ashish/clock_and_alarm/assets/60579703/a8e5122b-529d-4c54-a2f9-2e4192546b1a">
