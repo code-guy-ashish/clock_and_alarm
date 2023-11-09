@@ -72,7 +72,7 @@ let set_alarm = async () => {
         let s = setInterval(async () => {
             let cur_time = get_curr_time();
             if (ct(cur_time[0]) == ct(alarm_values[0]) && ct(cur_time[1]) == ct(alarm_values[1]) && ct(cur_time[2]) == ct(alarm_values[2])) {
-                let au = new Audio('./Sound/alarm.mp3');
+                let au = new Audio('./scripts/alarm.mp3');
                 await au.play();
             }
             console.log('In the setinterval: ', `${cur_time[0]}:${cur_time[1]}:${cur_time[2]}`);
